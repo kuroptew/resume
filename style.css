@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,18 +7,17 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #010101;
-  background:#f1f1f1;
-
+  background: #f1f1f1;
 }
 
 a {
   color: #333;
   text-decoration: none;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 a:hover {
@@ -32,7 +33,7 @@ a:active {
 .container {
   margin: auto;
   padding-top: 30px;
-  max-width:750px;
+  max-width: 750px;
 }
 
 .avatar {
@@ -72,7 +73,6 @@ ol {
   color: #666;
 }
 
-
 .card {
   margin-bottom: 20px;
   padding: 10px;
@@ -88,7 +88,6 @@ ol {
   border: 2px solid rgb(214, 214, 1);
   background-color: rgba(253, 250, 70, 0.5);
 }
-
 
 .list-hobby li {
   font-weight: 500;
@@ -129,8 +128,8 @@ ol {
 
 .form {
   padding: 10px;
-  background-color:rgba(131, 226, 255, 0.5);
-  border: 2px solid rgb(3, 158, 206);;
+  background-color: rgba(131, 226, 255, 0.5);
+  border: 2px solid rgb(3, 158, 206);
   border-radius: 10px;
 }
 
@@ -179,16 +178,16 @@ ol {
   font-family: inherit;
   font-size: 20px;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .btn:hover {
-  background-color:rgb(3, 121, 156);
+  background-color: rgb(3, 121, 156);
   color: #fff;
 }
 
 .btn:active {
-  background-color:rgb(3, 92, 119);
+  background-color: rgb(3, 92, 119);
 }
 
 @media (max-width: 460px) {
@@ -202,7 +201,7 @@ ol {
   .form-row {
     display: block;
   }
-  .form-row .form-group{
+  .form-row .form-group {
     width: 100%;
     margin-right: 0px;
     margin-bottom: 10px;
