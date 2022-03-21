@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Resume, about me, learn html/css">
+  <meta name="description" content="Этот сайт резюме - Куроптева Дениса">
+  <title>Резюме</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="info">
+      <img src="avatar.jpg" alt="Аватар" class="avatar">
+      <div class="info-text">
+        <h1>Куроптев Денис</h1>
+        <p>Я изучаю технологии <strong> web-разработки</strong><br>Я люблю заниматься <em>спортом, играть в компьютерные игры и программировать</em></p>
+        <h2>Я в соцсетях</h2>
+        <a href="" target="_blank">Vkontakte</a>
+        |
+        <a href="" target="_blank">Telegram</a>
+      </div>
+    </div>
+    <div class="card bg-red">
+      <h2>Мои хобби</h2>
+      <ol class="list-hobby">
+        <li>Программирование</li>
+        <li>Компьютерные игры</li>
+        <li>Футбол</li>
+      </ol>
+    </div>
+    <div class="card bg-yellow">
+      <h2>Опыт работы</h2>
+      <table class="table">
+        <thead>
+          <th>Название</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ОАО "ВТИ"</td>
+            <td>инженер 1 категории</td>
+            <td>2018 - 2020</td>
+          </tr>
+          <tr>
+            <td>НИУ "МЭИ"</td>
+            <td>инженер 1 категории</td>
+            <td>2020 - 2021</td>
+          </tr>
+          <tr>
+            <td>"Мосэнергопроект"</td>
+            <td>инженер 1 категории</td>
+            <td>2021 - 2021</td>
+          </tr>
+          <tr>
+            <td>АО "Газэнергосервис"</td>
+            <td>инженер-конструктор 3 категории</td>
+            <td>2021 - сейчас</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <form class="form">
+      <h2>Связаться со мной</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name"><strong>Ваше имя:</strong></label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
+        <div class="form-group">
+          <label for="email"><strong>Ваш email:</strong></label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message"><strong>Ваше сообщение:</strong></label>
+        <textarea id="message" placeholder="Введите сообщение..."></textarea>
+      </div>
+      <button type="submit" class="btn">Отправить!</button>
+    </form>
+  </div>
+
+</body>
+
+</html>

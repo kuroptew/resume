@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #010101;
+  background:#f1f1f1;
+
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+a:hover {
+  color: rgb(0, 140, 255);
+  border-bottom: 1px solid rgb(0, 140, 255);
+}
+
+a:active {
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+}
+
+.container {
+  margin: auto;
+  padding-top: 30px;
+  max-width:750px;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+ol {
+  padding-left: 40px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 30px;
+  text-align: center;
+}
+
+.info-text p {
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 24px;
+  color: #666;
+}
+
+
+.card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bg-red {
+  border: 2px solid rgb(253, 95, 95);
+  background-color: rgba(240, 137, 137, 0.5);
+}
+
+.bg-yellow {
+  border: 2px solid rgb(214, 214, 1);
+  background-color: rgba(253, 250, 70, 0.5);
+}
+
+
+.list-hobby li {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.list-hobby li:last-child {
+  margin-bottom: 0px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table tbody tr td:first-child {
+  text-align: left;
+}
+
+.table tbody tr {
+  color: #666;
+}
+
+.table tbody tr:last-child {
+  color: #010101;
+}
+
+.table tbody tr:last-child {
+  font-weight: 600;
+}
+
+.table tbody tr td {
+  padding: 10px;
+}
+
+.table tbody tr td:not(first-child) {
+  text-align: center;
+}
+
+.form {
+  padding: 10px;
+  background-color:rgba(131, 226, 255, 0.5);
+  border: 2px solid rgb(3, 158, 206);;
+  border-radius: 10px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.form-row .form-group {
+  display: inline-block;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn {
+  padding: 15px 20px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  color: #111;
+  background-color: rgb(23, 195, 248, 0.5);
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all .4s;
+}
+
+.btn:hover {
+  background-color:rgb(3, 121, 156);
+  color: #fff;
+}
+
+.btn:active {
+  background-color:rgb(3, 92, 119);
+}
+
+@media (max-width: 460px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info-text {
+    margin-top: 10px;
+  }
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group{
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
